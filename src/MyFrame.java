@@ -10,8 +10,9 @@ public class MyFrame extends JFrame implements ActionListener {
         this.setLayout(new FlowLayout());
 
         JCheckBox checkBox = new JCheckBox();
+        checkBox.setText("I'm not a robot'");
 
-
+         this.add(checkBox);
         this.pack();
         this.setVisible(true);
 
