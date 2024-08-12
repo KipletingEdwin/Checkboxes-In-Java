@@ -23,6 +23,8 @@ public class MyFrame extends JFrame implements ActionListener {
         checkBox.setText("I'm not a robot'");
         checkBox.setFocusable(false);
         checkBox.setFont(new Font("Consolas",Font.PLAIN,35));
+        checkBox.setIcon(xIcon);
+        checkBox.setSelectedIcon(checkIcon);
 
         this.add(button);
         this.add(checkBox);
